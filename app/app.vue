@@ -6,6 +6,11 @@ interface NavItem {
 	level: number
 }
 
+useSeoMeta({
+	title: 'Newsletters BioBioChile',
+	ogImage: 'https://www.biobiochile.cl/assets/escritorio/bbcl-2020/img/bbcl-social-2.jpg'
+})
+
 useHead({
 	htmlAttrs: {
 		class: 'scroll-smooth'
