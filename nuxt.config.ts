@@ -16,7 +16,7 @@ export default defineNuxtConfig({
 	},
 	$production: {
 		app: {
-			baseURL: '/politica-etica/'
+			baseURL: '/politica-etica'
 		}
 	}
 })

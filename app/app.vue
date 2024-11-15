@@ -7,7 +7,7 @@ interface NavItem {
 }
 
 useSeoMeta({
-	title: 'Newsletters BioBioChile',
+	title: 'Politica ética BioBioChile',
 	ogImage: 'https://www.biobiochile.cl/assets/escritorio/bbcl-2020/img/bbcl-social-2.jpg'
 })
 
@@ -335,7 +335,7 @@ function scrollTo(event: Event) {
 							<strong>Índice</strong>
 						</p>
 						<ul>
-							<li v-for="item of nav" :key="item.id" :value="item.id" class="mb-16px" :style="{ 'margin-left': `${(item.level - 2) * 32}px` }">
+							<li v-for="item of nav" :key="item.id" class="mb-16px" :style="{ 'margin-left': `${(item.level - 2) * 32}px` }">
 								<a :href="`#${item.id}`">{{ item.text }}</a>
 							</li>
 						</ul>
