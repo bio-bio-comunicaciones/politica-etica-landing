@@ -336,7 +336,9 @@ function scrollTo(event: Event) {
 						</p>
 						<ul>
 							<li v-for="item of nav" :key="item.id" class="mb-16px" :style="{ 'margin-left': `${(item.level - 2) * 32}px` }">
-								<a :href="`#${item.id}`">{{ item.text }}</a>
+								<button>
+									<a :href="`#${item.id}`">{{ item.text }}</a>
+								</button>
 							</li>
 						</ul>
 					</div>
